@@ -1,0 +1,371 @@
+@media screen and (max-width: 1600px) {
+    .header__container,
+    .hero .container {
+        width: 1110px;
+    }
+
+}
+
+/* Ipad Pro */
+
+@media screen and (max-width: 1100px) {
+	.header__container,
+	 .container {
+		max-width: 992px;
+	}
+	.hero {
+		background-position-y: -20vh; 
+	}
+
+	.hero__title {
+		font-size: 102px;
+	}
+	.hero__subtitle {
+		font-size: 20px;
+	}
+	.hero__description {
+		font-size: 18px;
+	}
+	.hero__social {
+		bottom: 205px;
+		right: 15px;
+  }
+	.hero__scroll {
+		bottom: 290px;
+	}
+
+	.trip__top {
+		justify-content: center;
+		padding: 0;
+	}
+
+	.slider-item__text {
+		transform: translate(45%,-50%);
+	}
+	.slider__dots {
+		bottom: 8px;
+	}
+	.trip__top {
+		flex-direction: column;
+		text-align: center;
+  }
+  .trip__right {
+	  padding-left: 45px;
+  }
+  .trip img {
+		margin: 20px 0px;
+  }
+  .trip__nav {
+		margin-top: 83px;
+		margin-bottom: 100px;
+		padding: 0px 10px;
+	}
+  .trip__nav li {
+		padding: 0 ;
+	}
+	.trip__social span {
+		margin-bottom: 0;
+	}
+	.trip__social::before {
+		bottom: 0;
+	}
+	.footer {
+		padding: 37px 0 150px;
+  }
+	.footer__copyright {
+		margin-bottom: 610px;
+	}
+}
+
+
+/* Ipad */
+
+@media screen and (max-width: 992px) {
+	.header__container,
+	 .container {
+		max-width: 756px;
+	}
+	.hero__social {
+		bottom: 150px;
+		
+  }
+  .hero__scroll {
+		bottom: 250px;
+	}
+	.trip__content {
+		flex-wrap: wrap;
+	}
+	.trip__left {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 80px;
+	}
+	.slider-item__text {
+		transform: translate(0%,-50%);
+	}
+	.slider__dots {
+      left: 78px;
+      bottom: -50px;
+  }
+  .trip__right {
+	  width: 100%;
+  }
+  .trip__social span {
+	margin-bottom:6px;
+ }
+ .trip img {
+	margin: 8px 0px;
+	}
+	.about__content {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.about__left {
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+	.about .title {
+		text-align: center;
+	}
+	.about__right {
+		width: 100%;
+	}
+	.about-item:hover .about-item__info  {
+		opacity: 1;
+		left: 12px;
+  }
+  .people {
+		margin-top: 170px;
+		padding-bottom: 110px;
+	}
+	.people-item::before {
+		display: none;
+  }
+  .people-item {
+		padding: 45px 10px 52px 20px;
+	}
+	.goodbye {
+		padding-bottom: 15px;
+  }
+  .footer {
+		padding: 100px 0px;
+		height: 100%;
+	}
+	.footer__copyright {
+		margin-bottom: 320px;
+  }
+	
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .hero {
+        background-position-y: -20vh;
+    }
+    .hero__container,
+    .header__container{
+        padding: 0 20px;
+        width: auto;
+    }
+    .header__container {
+        align-items: center;
+    }
+    .header__menu {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .hero__wrapper {
+        margin-top: -150px;
+    }
+    .hero .container {
+        width: auto;
+        right: 20px;
+    }
+    .hero__title {
+        font-size: 60px;
+        line-height: 1.5;
+    }
+    .hero__subtitle {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .hero__description {
+        font-size: 12px;
+    }
+    .trip__top {
+        flex-direction: column;
+        text-align: center;
+    }
+    .trip__top img {
+        margin: 20px auto;
+    }
+    .title {
+        font-size: 42px;
+    }
+    .trip__description {
+        font-size: 12px;
+    }
+    .trip__nav {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .trip__nav ul {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .trip__nav li {
+        padding: 0;
+        margin-bottom: 45px;
+    }
+    .trip__nav li.is-active::before {
+        bottom: -20px;
+    }
+    .trip__content {
+        flex-direction: column-reverse;
+    }
+    .trip__right {
+        padding: 0;
+        margin-bottom: 200px;
+        width: 100%;
+        text-align: center;
+    }
+    .trip__right h3 {
+        font-size: 42px;
+    }
+    .trip__right p {
+        font-size: 13px;
+    }
+    .trip__social {
+        right: 50%;
+        transform: translateX(50%);
+        bottom: -130px;
+    }
+    .button {
+        padding: 10px 25px;
+        font-size: 12px;
+    }
+    .trip__slider {
+        width: 100%;
+        margin-left: 0;
+    }
+    .slider-item__text {
+        left: 40%;
+        transform: translate(-50%,-50%);
+    }
+	 .slider__dots {
+		left: -16px;
+		bottom: -9px;
+  	}
+    .col-6 {
+        width: 100%;
+    }
+
+	.about__content {
+     flex-wrap: wrap;
+  }
+  
+  .about__left {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	.about .title {
+		text-align: center;
+  }
+	.about__left p {
+		margin-bottom: 15px;
+		font-size: 14px;
+	}
+	.about .button {
+		display: inline-block;
+		margin: 10px 0 30px 0;
+	}
+	.about__right {
+		flex-wrap: wrap;
+		width: 100%;
+  }
+  .about-item {
+	position: relative;
+	width: 100%;
+	}
+	.about-item:hover .about-item__info  {
+		opacity: 1;
+		left: -14px;
+  }
+	.about-item__info {
+		padding: 20px;
+  }
+	.about-item__info h5 {
+		font-size: 13px;
+		line-height: 100%;
+	}
+	.about-item__info span {
+		font-size: 13px;
+	}
+
+	.people {
+		margin-top: 120px;
+		padding-bottom: 70px;
+  }
+  .people .subtitle {
+		margin: 20px 0 30px;
+		font-size: 20px;
+	}
+	.people-item {
+		padding: 25px 15px 25px 50px;
+	}
+	.people-item::before {
+		left: 8px;
+		top: 22px;
+	}
+	.people-item__title {
+		font-size: 18px;
+		line-height: 150%;
+		margin-bottom: 18px;
+  }
+  .people-item__description {
+		font-size: 15px;
+		line-height: 150%;
+		margin-bottom: 25px;
+  }
+	.people-item__bottom {
+		font-size: 10px;
+	}
+	.goodbye {
+		padding: 0;
+	}
+	.goodbye .subtitle {
+		max-width: 388px;
+		margin: 18px auto 0;
+  		}
+
+		
+	.footer {
+		padding: 70px 0 20px;
+	}
+	
+	.footer__row {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.footer-item {
+		margin-bottom: 20px;
+	
+	}
+	.footer-item__title {
+		font-size: 15px;
+	}
+	.footer-item__list a{
+		font-style: 13px;
+	}
+	.footer__copyright {
+		margin-top: 34px;
+		margin-bottom: 164px;
+		font-size: 12px;
+	}
+}
